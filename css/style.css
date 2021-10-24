@@ -1,0 +1,237 @@
+/*common css start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	color: #626262;
+	font-weight: 400;
+}
+/*common css finish*/
+/*header part start*/
+header{
+	padding: 40px 0px;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+	float: right;
+}
+.navigation{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.navigation li{
+	list-style: none;
+	float: left;
+}
+.navigation li a{
+	display: inline-block;
+	margin-left: 120px;
+	padding-bottom: 5px;
+	color: #626262;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: .2s;
+}
+.navigation li:first-child a{
+	margin-left: 0px;
+	
+}
+.navigation li a:hover{
+	border-bottom: 2px solid #626262;
+
+
+}
+/*header part finish*/
+/*banner part start*/
+.banner{
+	padding: 40px 0px;
+}
+.ban_content{}
+.ban_img{width: 100%;}
+.ban_img img{
+	width: 100%;
+}
+/*banner part end*/
+/*perfect part start*/
+.perfect{
+	padding: 40px 0px;
+}
+.wrapper2{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+.per_content{}
+.c_lite{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 20px 0px 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 30px;
+}
+.mb_40{
+	margin-bottom: 40px;
+}
+/*perfect part end*/
+/*blog part start*/
+.blog1{
+	padding: 40px 0px;
+}
+.blog_content{
+	overflow: hidden;
+}
+.b_single{
+	width: 47%;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.blog_img{
+	margin-bottom: 30px;
+}
+.blog_img img{
+	width: 100%;
+}
+.blog2{
+	padding: 80px 0px;
+}
+/*blog part end*/
+/*signup part start*/
+.signup{
+	padding: 70px 0px;
+	background-color: #F0F0F0;
+}
+.wrapper3{
+	margin: 0 auto;
+	width: 60%;
+}
+.s_content{
+	text-align: center;
+}
+.mb_70{
+	margin-bottom: 70px;
+}
+.s_form{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+.s_form input{
+	padding: 10px 30px 10px 0px;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	border: none;
+	border-bottom: 2px solid #606060;
+	outline: none;
+	background: transparent;
+	width: 350px;
+}
+.s_form button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 20%;
+	right: 1%;
+	cursor: pointer;
+}
+/*signup part finish*/
+/*second blog start*/
+.blog3{
+	padding: 80px 0px;
+}
+/*second blog finish*/
+/*load more part start*/
+.load_more{
+	padding: 20px 0px 80px;
+}
+.lm_content{
+	text-align: center;
+}
+.lm_content button{
+	width: 165px;
+	height: 60px;
+	border: none;
+	border-top: 1px solid #626262;
+	border-left: 1px solid #626262;
+
+	box-shadow: 5px 5px 5px 1px rgba(98,98,98,0.3);
+	background: transparent;
+	transition: .3s;
+}
+.lm_content button:hover{
+	transform: scale(.9);
+}
+.lm_content button a{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	text-decoration: none;
+
+
+}
+/*load more part end*/
+/*footer part start*/
+.footer{
+	padding: 40px 0px;
+	background-color: #F0F0F0;
+}
+.f_content{
+	overflow: hidden;
+}
+.f_left{
+	width: 45%;
+	float: left;
+}
+.f_left ul{
+	margin: 0;
+	padding: 0;
+}
+.f_left ul li a{
+	margin-left: 25px;
+	text-transform: none;
+}
+.f_right{
+	width: 45%;
+	float: right;
+}
+.f_right ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.f_right ul li a{
+	margin-left: 25px;
+	text-transform: none;
+}
+/*footer part finish*/
